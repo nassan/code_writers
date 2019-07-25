@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-   rtgert
+    
     <router-view/>
   </div>
 </template>

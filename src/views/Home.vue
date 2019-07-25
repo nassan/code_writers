@@ -13,7 +13,7 @@
       <div>
         <br>
         <br>
-         <a href="https://www.Clang.com">
+         <a href="http://localhost:8080/Clang">
    <img  src="../assets/c-logo.png" alt="Italian Trulli" border="15" width="250" height="250">
   </a>
       </div> 

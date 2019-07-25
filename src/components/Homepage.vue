@@ -1,11 +1,16 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg1 }}</h1>
+  <div class="container">
+  
+   
+      
+  <h1>{{ msg1 }}</h1>
    <p>
    <h2>{{ msg2 }}</h2>
   </div>
 
-  <img src="htmlpic.jpeg" alt="Italian Trulli">
+
+
+  
 </template>
 
 <script>
@@ -15,6 +20,7 @@ export default {
     msg1: String,
     msg2: String, 
   }
+  
 }
 </script>
 
@@ -34,4 +40,7 @@ li {
 a {
   color: #42b983;
 }
+
+
+
 </style>

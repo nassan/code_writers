@@ -5,16 +5,21 @@
     <div class="column">
       
        <div>
-        
-      </div>
-      <a href="https://www.html.com">
-   <img  src="../assets/htmlpic.jpeg" alt="Italian Trulli" border="15">
+        <a href="https://www.html.com">
+   <img  src="../assets/htmlpic.jpeg" alt="Italian Trulli" border="15" >
   </a>
+      </div>
+     
       <div>
-        hi
+        <br>
+        <br>
+         <a href="https://www.Clang.com">
+   <img  src="../assets/c-logo.png" alt="Italian Trulli" border="15" width="250" height="250">
+  </a>
       </div> 
     </div>
     <div class="column">
+
       <img alt="Vue logo" src="../assets/hackathon.jpeg" border="15"> 
     <Homepage msg1="Welcome to Hackalearn"
     msg2= "Learn today, code tomorrow"/>

@@ -1,21 +1,20 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/hackathon.jpeg">
-    <Homepage msg1="Welcome to Hackalearn"/>
-    <Homepage msg2= "Learn today, code tomorrow"/>
-    <img src="htmlpic.jpeg" alt="Italian Trulli">
+    <img alt="Vue logo" src="../assets/htmlfordummies.jpg">
+    <HtmlLanguage msg="Welcome to html guide"/>
   </div>
-
 </template>
 
 <script>
 // @ is an alias to /src
-import Homepage from '@/components/Homepage.vue'
+import HtmlLanguage from '@/components/HtmlLanguage.vue'
 
 export default {
   name: 'home',
   components: {
-    Homepage
+    HtmlLanguage
   }
 }
 </script>
+
+>

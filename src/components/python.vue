@@ -25,19 +25,7 @@ Python is considered to be a very easy language to learn
 So let's begin...
 
 
-Declare Bool 
 
-Interacting with user 
-
-Sending Info to User 
-
-Printing Text 
-
-Getting Input form User 
-
-Basic Functions 
-
-Lists
 
 
 Declaring Variables:

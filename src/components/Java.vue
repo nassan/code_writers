@@ -1,7 +1,7 @@
 <template>
   <div class="bobi">
     <br />
-    <img src="../assets/KKK.png" class="BOB" />
+    <img src="../assets/Javapic.jpg" class="BOB"/>
     <br />
     <p>
       <u>

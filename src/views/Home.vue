@@ -27,7 +27,9 @@
     <div class="column">
   
      <div>
-        hi
+       <a href="http://localhost:8080/Java">
+   <img  src="../assets/Javapic.jpg" alt="Italian Trulli" border="15"  width="500">
+  </a>
       </div>
       <div>
         hi

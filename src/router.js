@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Clang from './components/Clang.vue'
+import Java from './components/Java.vue'
 
 Vue.use(Router)
 
@@ -18,6 +19,11 @@ export default new Router({
       path: '/Clang',
       name: 'Clang',
       component: Clang
+    },
+    {
+      path: '/Java',
+      name: 'Java',
+      component: Java
     },
     {
       path: '/about',

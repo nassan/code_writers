@@ -15,115 +15,116 @@
 
 
 
+<br>
 The only Python Tutorial you'll ever need
-
+<br>
 Programmers around the world like to joke around python that now Psudo-code finally exists.
-
+<br>
 Python is considered to be a very easy language to learn
-
+<br>
 
 So let's begin...
 
 
 
 
-
+<br>
 Declaring Variables:
-Declare an Integer:
-num = 5
+<br>Declare an Integer:
+<br>num = 5
 
 
-Declare a String:
-word = "Hello"       --- don't forget the "Quotes"
+<br>Declare a String:
+<br>word = "Hello"       --- don't forget the "Quotes"
 
 
-Declare a Double:
-number = 4.5
+<br>Declare a Double:
+<br>number = 4.5
 
 
-Declare a list:
-list1 = ["apple","orange","banana","potato"]   -For more details about lists, see below
+<br>Declare a list:
+<br>list1 = ["apple","orange","banana","potato"]   -For more details about lists, see below
 
 
-Declaring Booleans:
-active = True
+<br>Declaring Booleans:
+<br>active = True
 
-active = False
+<br>active = False
 
--- Don't forget Caps 
+<br>-- Don't forget Caps 
 
 
 
-Interacting with user:
-Sending Info to User
-Printing Text:
-print "text of your choice"
+<br>Interacting with user:
+<br><br>Sending Info to User
+<br>Printing Text:
+<br>print "text of your choice"
 
-(in Python3 brackets are requireed around the printed element
+<br>(in Python3 brackets are requireed around the printed element
 
-Printing Variables:
-print num
+<br>Printing Variables:
+<br>print num
 
-print text
+<br>print text
 
-Getting Input from User:
-Get Int:
-num = input(text)        #warning! Only numbers! Otherwise the program would crash
+<br>Getting Input from User:
+<br>Get Int:
+<br>num = input(text)        #warning! Only numbers! Otherwise the program would crash
 
-what is put into the brackets of the input() function will be printed to the user 
+<br>what is put into the brackets of the input() function will be printed to the user 
 
-example:
-num = input("Please enter your favorite number:")
+<br>example:
+<br>num = input("Please enter your favorite number:")
 
-Get text:
-text = raw_input(text)
+<br>Get text:
+<br>text = raw_input(text)
 
-Basic Functions:
-Conditions:
-if condition :
+<br>Basic Functions:
+<br>Conditions:
+<br>if condition :
 
-(tab) script
+<br>(tab) script
 
-example:
-if num == 0:
+<br>example:
+<br>if num == 0:
 
-print "The number was invalid"    
+<br>print "The number was invalid"    
 
-Tips Tricks:
-In conditions never forget == when comparing to objects (the single = is made to declare a variable)
+<br>Tips Tricks:
+<br>In conditions never forget == when comparing to objects (the single = is made to declare a variable)
 
-when entering != the condition will be applied whenever it's Opposite 
+<br>when entering != the condition will be applied whenever it's Opposite 
 
-While function:
-while (done == )
+<br>While function:
+<br>while (done == )
 
  
 
-Conditions
-Tips &#38; Tricks:
-a != b    -when a doesn't == to b
+<br>Conditions
+<br>Tips &#38; Tricks:
+<br>a != b    -when a doesn't == to b
 
-a &#60; b     -when b is larger than a (only available in integers)
+<br>a &#60; b     -when b is larger than a (only available in integers)
 
-a > b     -when a is larger than b 
+<br>a > b     -when a is larger than b 
 
-a &#60;= b   -when a is equal to or smaller than b
+<br>a &#60;= b   -when a is equal to or smaller than b
 
-a >= b   -when a is equal to or larger than b
+<br>a >= b   -when a is equal to or larger than b
 
-hello
-with Booleans: 
-if active: --if active == True the statement is True (and will proceed to the next step)
+<br>hello
+<br>with Booleans: 
+<br>if active: --if active == True the statement is True (and will proceed to the next step)
 
-if !active:  --if active != True (is not True) 
+<br>if !active:  --if active != True (is not True) 
 
-Note: any variable with a value always == True
+<br>Note: any variable with a value always == True
 
-Lists:
-Adding to Lists:
-list1.append(item to add)
+<br>Lists:
+<br>Adding to Lists:
+<br>list1.append(item to add)
 
-list1.insert(place to add item,item to add)
+<br>list1.insert(place to add item,item to add)
 
 
 

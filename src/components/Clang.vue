@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="mainpage" class="home" background-image="../assets/Codeimage.jpg">
     <h1 style="font-family:impact,serif;font-size:60px;">Welcome to C</h1>Before you begin learning any coding language, you need to meet
     <a
       href="https://www.google.com/"
@@ -8,7 +8,7 @@
     <br />
     <br />
     <br />
-    <br />Alright,let's start with some basicccccccs:
+    <br />Alright, let's start with some basics:
     <br />
     <table>
       <tbody>
@@ -59,7 +59,18 @@
       </tbody>
     </table>
 
-<aside id="ac-localeswitcher" data-analytics-region="locale switcher" data-analytics-activitymap-region-id="locale switcher" lang="en-IL" dir="ltr"><div class="ac-ls-content"><div class="ac-ls-copy">Choose another country or region to see content specific to your location.</div><div class="ac-ls-actions"><div id="ac-ls-dropdown" class="ac-ls-dropdown ac-ls-actions-item select-collapsed"><div id="ac-ls-dropdown-select" class="ac-ls-dropdown-select ac-ls-dropdown-nav-item" type="text" role="button" aria-haspopup="true" tabindex="0"><span id="ac-ls-dropdown-title"><span class="ac-ls-flag ac-ls-flag-il"></span> <span class="ac-ls-dropdown-copy">Israel</span> </span><span id="ac-ls-dropdown-icon" class="ac-ls-dropdown-icon ac-ls-icon ac-ls-icon-chevron-down"></span></div><div id="ac-ls-dropdown-options" class="ac-ls-dropdown-options" role="menu" aria-expanded="false"><ul class="ac-ls-itemlist" role="presentation"><span class="ac-ls-dropdown-icon ac-ls-icon ac-ls-icon-chevron-up"></span><li role="menuitem" id="ac-ls-dropdown-option-1" class="ac-ls-dropdown-option ac-ls-dropdown-nav-item" aria-selected="true" tabindex="0" data-href="/il/"><span class="ac-ls-flag ac-ls-flag-il"></span> <span class="ac-ls-dropdown-copy">Israel</span></li><li role="menuitem" id="ac-ls-dropdown-option-country-region" class="ac-ls-dropdown-option ac-ls-dropdown-nav-item" data-href="/choose-country-region/" tabindex="0"><span class="ac-ls-flag ac-ls-flag-default"></span> <span class="ac-ls-dropdown-copy">Other country or region</span></li></ul></div></div> <a href="/il/" id="ac-ls-continue" class="ac-ls-button ac-ls-actions-item ac-ls-continue" role="button" data-analytics-click="prop3: continue" data-analytics-title="continue button">Continue</a> <button id="ac-ls-close" class="ac-ls-close ac-ls-actions-item ac-ls-icon ac-ls-icon-close" data-analytics-click="prop3: exit" data-analytics-title="exit button"><span class="ac-ls-close-text" aria-label="Exit"></span></button></div></div></aside>
+    <div class="box">
+      <a class="button" href="#popup1">Click here to see where C is useful</a>
+    </div>
+
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <h2>Literally nowhere</h2>
+        <a class="close" href="#">&times;</a>
+        <div class="content">C is older than Morgan Freeman why the hell would you use it, <br><br> Go back to the homepage and try a newer language.</div>
+      </div>
+    </div>
+<a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Click here to go back to the homepage</a>
 
   </div>
 </template>
@@ -77,11 +88,11 @@ th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
-}
-
-tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+/* tr:nth-child {
+} */
 thead {
   background: #dedede;
   font-size: 14px;
@@ -107,6 +118,102 @@ hr {
   margin: 35px 0;
   clear: both;
   position: relative;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  height: 100vh;
+  background-image: "../assets/Codeimage.jpg";
+}
+
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color: #006b2d;
+  margin: 80px 0;
+}
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #000;
+  border: 2px solid #006b2d;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #006b2d;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06d85f;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+  .popup {
+    width: 70%;
+  }
 }
 </style>
 <script>

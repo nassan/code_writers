@@ -35,17 +35,20 @@
         hi
       </div> 
     </div>
+
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
+
 import Homepage from "@/components/Homepage.vue";
+
 
 export default {
   name: "container",
   components: {
-    Homepage
+    HtmlLanguage
   }
 };
 </script>
@@ -61,5 +64,4 @@ export default {
 
 
 </style>
-
 

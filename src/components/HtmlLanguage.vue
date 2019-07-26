@@ -1,6 +1,8 @@
 <template>
   <div class="home">
     
+    <img src="../assets/htmlfordummies.jpg" alt="Italian Trulli">
+<p></p>
    <a href="https://www.youtube.com/watch?v=bWPMSSsVdPk">hello that's a link for a youtube video that explains html in 8 minutes</a>
  
  <h1>What is HTML?</h1>

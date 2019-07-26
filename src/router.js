@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Clang from './components/Clang.vue'
 import Java from './components/Java.vue'
+import HtmlLanguage from './components/HtmlLanguage.vue'
+// import Python from './assets/Python.html'
 
 Vue.use(Router)
 
@@ -25,6 +27,16 @@ export default new Router({
       name: 'Java',
       component: Java
     },
+    {
+      path: '/HtmlLanguage',
+      name: 'HtmlLanguage',
+      component: HtmlLanguage
+    },
+    // {
+    //   path: '/Python',
+    //   name: 'Python',
+    //   component: Python
+    // },
     {
       path: '/about',
       name: 'about',

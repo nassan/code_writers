@@ -6,6 +6,8 @@
   <h1>{{ msg1 }}</h1>
    <p>
    <h2>{{ msg2 }}</h2>
+   <p>
+   <h2>{{msg3}}</h2>
   </div>
 
 
@@ -19,6 +21,7 @@ export default {
   props: {
     msg1: String,
     msg2: String, 
+    msg3: String,
   }
   
 }

@@ -127,13 +127,7 @@ list1.insert(place to add item,item to add)
 
 
 
-      Hello here we going to learn the basic of Java.
-      first of all you need to know what is Java.
-      Java is a programming language and computing platform. There are lots of applications and websites
-      that will not work unless you have Java installed, and more are created every day.
-      Java is fast, secure, and reliable.
-      From laptops to datacenters, game consoles to
-      scientific supercomputers, cell phones to the Internet, Java is everywhere!</font>
+     </font>
  
 
   </div>

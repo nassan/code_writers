@@ -46,10 +46,12 @@
        the command of printing in Java is: "system.out.println("");".
        lets say we want the computer to print us "Hello World", so what thet we need to do is writr system.out.println("Hello World");
        and then the in the bottom of the computer will see Hello World.  </font>
-    <br />
-    her is a video thet
+    <br />              
+    <font size="5">Her is a video thet sum it up:
+      
+    </font>
     <a href="https://www.youtube.com/watch?v=KDuse0mmTm4">
-     
+     clic me!
       <br />
     </a>
 

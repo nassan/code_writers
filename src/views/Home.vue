@@ -1,9 +1,8 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/hackathon.jpeg">
+    <img alt="Vue logo" src="../assets/logo.png">
     <Homepage msg1="Welcome to Hackalearn"/>
     <Homepage msg2= "Learn today, code tomorrow"/>
-    <img src="htmlpic.jpeg" alt="Italian Trulli">
   </div>
 
 </template>
